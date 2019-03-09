@@ -15,14 +15,102 @@ header{
     background-image: url("camera.jpeg");
     background-size:cover;
     text-align:left;
-    font-family:'Comfortaa', cursive;
+    font-family: 'Abril Fatface', cursive;
+}
     
-    
+ .aboutus {
+    text-align: center;
 }
 
+ .aboutus i{
+     font-size: 30px;
+     padding: 25px 20px;
+     
+     /*change the color*/
+     color: #fff;
+     background-color: red;
+     
+     /*resize container of icon*/
+     width: 80px;
+     height: 80px;
+     
+     /*make the container round*/ 
+     border-radius: 50%;
+ }
+ 
+ .aboutus span{
+     width: 200px;
+     display: inline-block;
+ }
 
+/*Team*/
+.team{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.team img{
+    width: 250px;
+    height: 250px;
+    /*Object fit will crop and center image based on width and height*/
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+.aboutus {
+    text-align: center;
+}
 
+ .aboutus i{
+     font-size: 30px;
+     padding: 25px 20px;
+     /*change the color*/
+     color: #fff;
+     background-color: red;
+     /*resize container of icon*/
+     width: 80px;
+     height: 80px;
+     /*make the container round*/ 
+     border-radius: 50%;
+ }
+ 
+ /*Get Involved*/
+ .getinvolved{
+     background-color: grey;
+      text-align: center;
+      /*adds padding on top and bottom*/
+       padding: 50px 0 80px;
+       margin-top: 50px;
+       width: 100%;
+}
 
-
-
-
+ .getinvolved i{
+     font-size: 30px;
+     padding: 50px 0 80px;
+     
+     /*change the color*/
+     color: #fff;
+     background-color: red;
+     
+     /*resize container of icon*/
+     width: 100px;
+     height:10px;
+     
+     /*make the container round*/ 
+     border-radius: 50%;
+ }
+ 
+ .getinvolved h1{
+     color: white;
+ }
+ 
+ .options{
+     padding: 30px;
+     margin: 10px;
+     border: 1px solid #ccc;
+     
+     background-color: #fff;
+     border-radius: 5px;
+     margin-top: 30px;
+ }
+ 
