@@ -10,18 +10,17 @@ body{
     background-color: #eee;
 }
 header{
-    height:900px;
+    height:1000px;
     width:100%;
     background-image: url("camera.jpeg");
     background-size:cover;
-    text-align: center;
-    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    text-align:left;
+    font-family:'Comfortaa', cursive;
+    
     
 }
 
-header p{
-    font-style: italic
-}
+
 
 
 
